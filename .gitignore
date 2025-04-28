@@ -1,0 +1,52 @@
+# Python virtual environment
+kirana360_env/
+venv/
+env/
+.env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Large model files
+models/*.pth
+models/*.pkl
+models/*.bin
+models/*.onnx
+models/*.pt
+
+# Data and results
+data/*
+results/*
+logs/*
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+dependencies.zip
+
+# Keep these directories with .gitkeep
+!data/.gitkeep
+!results/.gitkeep
+!logs/.gitkeep
+!models/.gitkeep
